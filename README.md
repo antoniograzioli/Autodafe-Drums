@@ -1,3 +1,3 @@
-# Autodafe Module Pack
+# Autodafe Drums Module Pack
 
-This Module Pack features additional modules for VCV Rack, such as a VCLFO, a Multiple and a Band Pass Filter
+This Module Pack features additional Drum Modules for VCV Rack
