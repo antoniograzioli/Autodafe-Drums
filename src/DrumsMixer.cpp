@@ -1,4 +1,5 @@
 #include "Autodafe.hpp"
+#include "dsp/digital.hpp"
 
 
 struct DrumsMixer : Module {

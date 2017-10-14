@@ -1,5 +1,6 @@
 #include "Autodafe.hpp"
 #include "rimclaves.h"
+#include "dsp/digital.hpp"
 
 
 struct DrumsRimClaves : Module {

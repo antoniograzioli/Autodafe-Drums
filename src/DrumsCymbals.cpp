@@ -1,5 +1,6 @@
 #include "Autodafe.hpp"
 #include "cymbals.h"
+#include "dsp/digital.hpp"
 
 
 struct DrumsCymbals : Module {

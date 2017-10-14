@@ -1,5 +1,7 @@
 #include "Autodafe.hpp"
 #include "claps.h"
+#include "dsp/digital.hpp"
+
 
 
 struct DrumsClaps : Module {

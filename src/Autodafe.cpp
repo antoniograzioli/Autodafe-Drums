@@ -1,6 +1,15 @@
 #include "Autodafe.hpp"
 #include <math.h>
-#include "dsp.hpp"
+#include "dsp/digital.hpp"
+#include "dsp/decimator.hpp"
+#include "dsp/fft.hpp"
+#include "dsp/filter.hpp"
+#include "dsp/fir.hpp"
+#include "dsp/frame.hpp"
+#include "dsp/minblep.hpp"
+#include "dsp/ode.hpp"
+#include "dsp/ringbuffer.hpp"
+#include "dsp/samplerate.hpp"
 
 Plugin *plugin;
 

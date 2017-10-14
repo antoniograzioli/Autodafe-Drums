@@ -1,5 +1,6 @@
 #include "Autodafe.hpp"
 #include "hhclosed.h"
+#include "dsp/digital.hpp"
 
 
 struct DrumsHiHatClosed : Module {

@@ -1,5 +1,6 @@
 #include "Autodafe.hpp"
 #include "kicks.h"
+#include "dsp/digital.hpp"
 
 
 struct DrumsKick : Module {

@@ -1,5 +1,6 @@
 #include "Autodafe.hpp"
 #include "rides.h"
+#include "dsp/digital.hpp"
 
 
 struct DrumsRide : Module {

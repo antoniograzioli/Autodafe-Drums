@@ -1,5 +1,6 @@
 #include "Autodafe.hpp"
 #include "hhopen.h"
+#include "dsp/digital.hpp"
 
 
 struct DrumsHiHatOpen : Module {
