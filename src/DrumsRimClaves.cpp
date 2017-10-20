@@ -93,7 +93,7 @@ void DrumsRimClaves::step()
 {
     
     
-    light -= light / 0.75 / gSampleRate;
+    light -= light / 0.75 / engineGetSampleRate();
    
     
     if (sampletypeselector.process(params[SAMPLETYPE].value))
