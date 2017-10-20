@@ -91,9 +91,11 @@ DrumsRimClaves::DrumsRimClaves()
 
 void DrumsRimClaves::step()
 {
+#ifdef v_dev
+    float gSampleRate = engineGetSampleRate();
+#endif    
     
-    
-    light -= light / 0.75 / engineGetSampleRate();
+    light -= light / 0.75 / gSampleRate;
    
     
     if (sampletypeselector.process(params[SAMPLETYPE].value))

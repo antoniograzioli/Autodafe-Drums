@@ -203,7 +203,11 @@ json_t *toJson() {
 
 
 
-void reset() {
+#ifdef v_dev
+	void reset() {
+#else
+	void initialize() {
+#endif
 		
 			ch1m = false;
 			ch2m = false;

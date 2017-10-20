@@ -91,9 +91,11 @@ DrumsRide::DrumsRide()
 
 void DrumsRide::step()
 {
+#ifdef v_dev
+    float gSampleRate = engineGetSampleRate();
+#endif    
     
-    
-    light -= light / 0.75 / engineGetSampleRate();
+    light -= light / 0.75 / gSampleRate;
    
     
     if (sampletypeselector.process(params[SAMPLETYPE].value))
