@@ -203,7 +203,7 @@ json_t *toJson() {
 
 
 
-void initialize() {
+void reset() {
 		
 			ch1m = false;
 			ch2m = false;
