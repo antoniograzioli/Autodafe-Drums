@@ -1,3 +1,3 @@
-# Autodafe Module Pack
+# Autodafe Drums
 
-This Module Pack features additional modules for VCV Rack, such as a VCLFO, a Multiple and a Band Pass Filter
+8 modules containing samples of varipus drum machines and a 8 channel Mixer
